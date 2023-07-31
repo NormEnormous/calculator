@@ -18,15 +18,12 @@
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px #000;
-    display: flex;
     margin: 2vh;
-    flex-wrap: wrap;
-    flex-basis: 24%;
+    height: 24%;
+    font-size: 1.5em;
+    display: inline-flex;
+    justify-content: space-between;
     flex-direction: column;
-    position: relative;
-    align-items: end;
-    font-size: 2em;
-    flex-shrink: 0;
 }
 
 #display div {
@@ -35,10 +32,15 @@
     padding: 0;
     margin-right: 10px;
     margin-bottom: 10px;
+    height: 40%;
+    width: 90%;
+    text-align: end;
 }
 
 #display div:last-child {
     color: #000;
+    width: 90%;
+    height: 40%;
 }
 
 #bigButtons {
