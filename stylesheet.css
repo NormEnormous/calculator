@@ -53,13 +53,12 @@
 }
 .bigButton {
     background-color: #fff;
-    aspect-ratio: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 7vh;
-    width: 12.5vh;
+    flex: 1 1 16%;
+    gap: 50px;
 }
 #clear {
     background-color: rgb(73, 73, 73);
